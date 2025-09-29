@@ -8,20 +8,6 @@ A C++ project implementing **quantitative finance models**:
 
 ---
 
-## Project Structure
-
-quant_finance/
-│── CMakeLists.txt
-│── include/
-│ ├── black_scholes.hpp
-│ ├── greeks.hpp
-│ └── monte_carlo.hpp
-│── src/
-│ ├── main.cpp
-│ ├── black_scholes.cpp
-│ ├── greeks.cpp
-│ └── monte_carlo.cpp
-
 ## Build Instructions
 
 Make sure you have **CMake** and **g++ (or clang++)** installed.
@@ -43,7 +29,7 @@ make
 ```
 
 ## Example Run
-``bash
+```bash
 === Quant Finance CLI ===
 Enter Spot Price (S): 100
 Enter Strike Price (K): 100
